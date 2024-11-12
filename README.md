@@ -23,8 +23,8 @@ Para ejecutar esta aplicación, sigue estos pasos:
 1. Clona este repositorio en tu máquina local.
 2. Asegúrate de que Java está correctamente instalado ejecutando `java -version` en tu terminal o consola.
 3. Navega hasta la carpeta donde has clonado el repositorio.
-4. Compila el código fuente usando el comando `javac MandalaDrawingApp.java`.
-5. Ejecuta la aplicación con `java MandalaDrawingApp`.
+4. Compila el código fuente usando el comando `javac Main.java`.
+5. Ejecuta la aplicación con `java Main`.
 
 ## Cómo Usar la Aplicación
 Al iniciar la aplicación, se presentará una interfaz con un panel de herramientas en la parte superior y un área de dibujo en el centro:
