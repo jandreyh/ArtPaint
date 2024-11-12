@@ -1,4 +1,4 @@
-# Java Swing Mandala Drawing App
+# ArtPaint : Java Swing Mandala Drawing App
 
 ## Descripción General
 Este proyecto es una aplicación de dibujo desarrollada en Java utilizando Swing, diseñada para permitir a los usuarios crear hermosas obras de arte basadas en patrones de mandalas. Además de los mandalas, la aplicación soporta modos de dibujo espejo y una función de cuadrícula que divide el canvas en 9 partes iguales y replica el diseño en cada sección.
