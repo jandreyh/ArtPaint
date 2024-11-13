@@ -6,11 +6,16 @@ import java.awt.geom.AffineTransform;
 
 
 public class DrawingPanel extends JPanel {
+
+    private static final String MANDALA = "Mandala";
+    private static final String MIRROR = "Mirror";
+    private static final String GRID = "Grid";
+
     private BufferedImage canvas;
     private Color currentColor = Color.BLACK;
     private int strokeWidth = 5;
     private int symmetry = 8; // Número de veces que se duplica el trazo
-    private String drawingMode = "Mandala";
+    private String drawingMode = MANDALA;
 
     public DrawingPanel() {
         canvas = new BufferedImage(500, 500, BufferedImage.TYPE_INT_ARGB);
@@ -47,13 +52,13 @@ public class DrawingPanel extends JPanel {
 
     private void draw(Point start, Point end) {
         switch (drawingMode) {
-            case "Mandala":
+            case MANDALA:
                 drawMandala(start, end);
                 break;
-            case "Mirror":
+            case MIRROR:
                 drawMirror(start, end);
                 break;
-            case "Grid":
+            case GRID:
                 drawGrid(start, end);
                 break;
         }
@@ -141,7 +146,7 @@ public class DrawingPanel extends JPanel {
     }
 
     public void setSymmetry(int symmetry) {
-        if (drawingMode.equals("Mandala")) {
+        if (drawingMode.equals(MANDALA)) {
             this.symmetry = symmetry;
         }
     }
