@@ -9,13 +9,13 @@ public class ToolPanel extends JPanel {
     private JComboBox<String> strokeOptions, modeOptions;
     private JSpinner symmetrySpinner;
     
-    public  static final String THIN = "Thin";
-    private static final String MEDIUM = "Medium";
-    private static final String THICK = "Thick";
+    public  static final String THIN = "Delgado";
+    private static final String MEDIUM = "Mediano";
+    private static final String THICK = "Grueso";
 
     private static final String MANDALA = "Mandala";
-    private static final String MIRROR = "Mirror";
-    private static final String GRID = "Grid";
+    private static final String MIRROR = "Espejo";
+    private static final String GRID = "Red";
 
     public ToolPanel(DrawingPanel panel) {
         btnColor = new JButton("Color");

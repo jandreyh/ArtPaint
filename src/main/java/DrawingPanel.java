@@ -8,8 +8,8 @@ import java.awt.geom.AffineTransform;
 public class DrawingPanel extends JPanel {
 
     private static final String MANDALA = "Mandala";
-    private static final String MIRROR = "Mirror";
-    private static final String GRID = "Grid";
+    private static final String MIRROR = "Espejo";
+    private static final String GRID = "Red";
 
     private BufferedImage canvas;
     private Color currentColor = Color.BLACK;
